@@ -32,8 +32,6 @@ export const AboutSection = () => {
                 {" "}
                 Hire Me
               </a>
-
-              <a
   <a
   href="https://drive.google.com/file/d/1BhAFOhpOcfQbH9RjZXqHHiHopEL8mTiK/view?usp=sharing"
   target="_blank"
