@@ -126,26 +126,29 @@ return (
 
       <div className="relative z-10 max-w-7xl mx-auto">
 
-        {/* Heading */}
-        <div className="text-center mb-12">
-          <div className="inline-flex items-center mb-5">
-            <span className="px-5 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
-              Experience & Contributions
-            </span>
-          </div>
+       {/* Heading */}
+<div className="text-center mb-12">
 
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white mb-5 transition-colors duration-300">
-            My Experience{" "}
-            <span className="text-primary">
-              & Contributions
-            </span>
-          </h2>
+  {/* Badge */}
+  <div className="inline-flex items-center mb-5">
+    <span className="px-5 py-2 rounded-full bg-primary/10 text-primary text-sm font-semibold">
+      Experience & Contributions
+    </span>
+  </div>
 
-          <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto text-base md:text-lg leading-relaxed transition-colors duration-300">
-            A journey of learning, collaboration, and meaningful
-            contribution in the field of Psychology.
-          </p>
-        </div>
+  {/* Title - Menambahkan dark:text-white agar di mode terang jadi gelap dan mode gelap jadi putih */}
+  <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white mb-5">
+    My Experience{" "}
+    <span className="text-primary">
+      & Contributions
+    </span>
+  </h2>
+
+  {/* Subtitle / Deskripsi */}
+  <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+    A journey of learning, collaboration, and meaningful contribution in the field of Psychology.
+  </p>
+</div>
 
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-3 mb-10">
