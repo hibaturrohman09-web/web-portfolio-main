@@ -35,8 +35,7 @@ export const AboutSection = () => {
 
               <a
   <a
-  href={`${import.meta.env.BASE_URL}CV-Muhamad-Hibatur-Rahman.pdf`}
-  download="CV-Muhamad-Hibatur-Rahman.pdf"
+  href="https://drive.google.com/file/d/1BhAFOhpOcfQbH9RjZXqHHiHopEL8mTiK/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-2.5 rounded-full border border-primary text-primary hover:bg-primary hover:text-white transition-all duration-300"
