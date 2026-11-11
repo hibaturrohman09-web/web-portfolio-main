@@ -126,7 +126,7 @@ return (
 
       <div className="relative z-10 max-w-7xl mx-auto">
 
-       {/* Heading */}
+ {/* Heading */}
 <div className="text-center mb-12">
 
   {/* Badge */}
@@ -136,7 +136,7 @@ return (
     </span>
   </div>
 
-  {/* Title - Menambahkan dark:text-white agar di mode terang jadi gelap dan mode gelap jadi putih */}
+  {/* Judul: Hitam (slate-900) di mode terang, Putih (white) di mode gelap */}
   <h2 className="text-3xl md:text-5xl font-bold text-slate-900 dark:text-white mb-5">
     My Experience{" "}
     <span className="text-primary">
@@ -144,10 +144,11 @@ return (
     </span>
   </h2>
 
-  {/* Subtitle / Deskripsi */}
+  {/* Deskripsi: Abu-abu Gelap (slate-600) di mode terang, Abu-abu Terang (slate-300) di mode gelap */}
   <p className="text-slate-600 dark:text-slate-300 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
     A journey of learning, collaboration, and meaningful contribution in the field of Psychology.
   </p>
+  
 </div>
 
         {/* Filter Buttons */}
