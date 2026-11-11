@@ -138,12 +138,18 @@ export const ContactSection = () => {
           </div>
 
           {/* Contact Form */}
-          <form
-            ref={formRef}
-            onSubmit={handleSubmit}
-            className="bg-card p-8 rounded-lg shadow-xs space-y-6">
-            <h3 className="text-2xl font-semibold mb-6">Send a Message</h3>
-
+         <form
+  onSubmit={(e) => {
+    e.preventDefault();
+    const name = e.target.name.value;
+    const email = e.target.email.value;
+    const message = e.target.message.value;
+    
+    // Ini akan otomatis membuka aplikasi email pengunjung dengan tujuan email Anda
+    window.location.href = `mailto:hibaturrahman09@gmail.com?subject=Pesan Portofolio dari ${name} (${email})&body=${message}`;
+  }}
+  className="bg-card p-8 rounded-lg shadow-xs space-y-6"
+>
             <div>
               <label htmlFor="name" className="block text-start text-sm font-medium mb-2">
                 Your Name
