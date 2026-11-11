@@ -34,7 +34,8 @@ export const AboutSection = () => {
               </a>
 
               <a
-  href="/CV-Muhamad-Hibatur-Rahman.pdf"
+  <a
+  href={`${import.meta.env.BASE_URL}CV-Muhamad-Hibatur-Rahman.pdf`}
   download="CV-Muhamad-Hibatur-Rahman.pdf"
   target="_blank"
   rel="noopener noreferrer"
